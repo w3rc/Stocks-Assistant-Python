@@ -1,0 +1,44 @@
+{
+    "intents" : [
+        {
+            "tag": "greetings",
+            "patterns": ["Hello"],
+            "responses": ["Hey there"]
+        },
+        {
+            "tag": "plot_chart",
+            "patterns": ["Plot a chart"],
+            "responses": ["Plotting Chart"]
+        },
+        {
+            "tag": "add_portfolio",
+            "patterns": ["Add Portfolio"],
+            "responses": ["Adding"]
+        },
+        {
+            "tag": "remove_portfolio",
+            "patterns": ["Remove Portfolio"],
+            "responses": ["Removing"]
+        },
+        {
+            "tag": "show_portfolio",
+            "patterns": ["Show Portfolio"],
+            "responses": ["Fetching"]
+        },
+        {
+            "tag": "portfolio_gains",
+            "patterns": ["Portfolio Gains"],
+            "responses": ["Fetching"]
+        },
+        {
+            "tag": "stock_price",
+            "patterns": ["Stock Price"],
+            "responses": ["Fetching"]
+        },
+        {
+            "tag": "bye",
+            "patterns": ["Bye"],
+            "responses": ["Goodbyes are never easy :'("]
+        }
+    ]
+}

@@ -1,0 +1,5 @@
+/.vscode
+/env
+
+*.pkl
+*.h5
